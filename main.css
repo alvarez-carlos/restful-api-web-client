@@ -1,0 +1,111 @@
+/**************************styles fot login template some of them affect de second template like the div effect.*/
+body{
+	background-color: #eee;
+}
+
+#title{
+  margin: 0 auto;
+}
+#title h2{
+  text-align:center;
+}
+#app{
+  display:flex;
+}
+
+#app div {
+  flex-grow:1; 
+}
+
+#app #form-container{
+ margin: 0 auto;
+ max-width: 300px;
+ margin-top: 100px;
+ padding: 15px;
+ padding-bottom: 30px;
+} 
+
+#login-form p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+form input{
+	width: calc(100% - 10px);
+	height: 24px;
+	padding-left: 5px;
+	background-color: #dedede;
+	border: solid 0px;
+	border-radius: 4px;
+        color: #555;
+}
+
+.bttn{
+	border: solid 0px;
+	padding: 15px;
+	background-color: #2280cc;
+	color: #fff;
+	border-radius: 4px;
+	margin-top: 15px;
+}
+
+.block{
+	width: calc(100% - 4px);
+}
+
+.form-title{
+	text-align: center;
+	font-size: 24px;
+	font-family: bold;
+}
+
+/*********************Styles for the secon template*/
+
+ul{
+	list-style: none;
+}
+#subjects-list li {
+	cursor: pointer;
+}
+#submit{
+	background-color: #2a91bd;
+	color: #fff;   
+	padding: 10px 15px;
+	border: solid 0px;
+	border-radius: 25px;
+	margin: 15px;
+	margin-left: 38px;
+}
+#submit:disabled{
+	background-color: #ccc;
+}
+
+/*********************More styles*/
+#subjects{
+	margin-left: 0;
+}
+#enrolments{
+	margin-right: 0;
+}
+
+/*Class to be used in the JavaScript*/
+.selected{
+	background-color: #eee;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

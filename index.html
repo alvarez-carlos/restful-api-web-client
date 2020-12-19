@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+ 
+  <head>
+    <link rel="stylesheet" href="main.css" style="text/css">
+  </head>
+  
+  <body>
+    <div>
+      <div id="title"><h2>Restful API -  Web Client </h2></div>
+    <div id="app">
+    </div>
+    </div>
+</body>
+  
+  <template id="login-template">
+       <div id="form-container">
+	<p class="form-title">Log In</p>		
+        <form id="login-form" action="" class="login-form">
+	  <div>
+	    <p>Email</p>
+	    <input id="email" type="text" placeholder="Email">
+	    </div>  
+	  <div>
+	    <p>Password</p>
+	    <input id="password" type="text" placeholder="Password">
+	  </div>
+	  <div>
+	    <button class="bttn block"> Submit </button>
+	  </div>
+        </form>
+       </div>	
+
+  </template>
+  
+  <template id="subjects-enrolments-view">
+       <div id="subjects">
+	<ul id="subjects-list">
+	  <p>Loading...</p>
+	</ul>
+        <form id="enrol-form">	
+           <input id="subjects-id" type="hidden">
+	   <button id="submit" disabled>Submit</button>
+	</form>
+      </div>
+      
+      <div id="enrolments">
+         <ul id="enrolments-list">
+		<p>Loading...</>
+	 </ul>
+      </div>
+
+  </template>
+  
+  <script src="main.js"></script>
+
+</html>
